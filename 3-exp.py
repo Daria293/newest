@@ -1,1 +1,7 @@
-https://github.com/Daria293/dz-4/pull/3
+list = [2550, 3000, 1100, 5500, 670, 855, 780]
+total = sum(list)
+middle = int(total / len(list))
+minimum = min(list)
+maximum = max(list)
+final_list = (minimum, maximum, middle)
+print(final_list)
